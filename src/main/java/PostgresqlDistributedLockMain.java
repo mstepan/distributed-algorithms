@@ -28,7 +28,6 @@ public class PostgresqlDistributedLockMain {
 
                 int maxThInCriticalSection = 0;
 
-
                 for (int it = 0; it < 100; ++it) {
                     lock.lock();
                     try {
@@ -42,7 +41,6 @@ public class PostgresqlDistributedLockMain {
                         lock.unlock();
                     }
                 }
-
 
                 return maxThInCriticalSection;
 

@@ -28,5 +28,8 @@ target
 hs_err_pid*
 
 dependency-reduced-pom.xml
-profile.sh
+
+# Profiler information
+profile-graph.html
+async-profiler-2.9-macos
 
